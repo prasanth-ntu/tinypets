@@ -3,6 +3,8 @@
 Minimal JS interface to an image classifer deployed in Hugging Face Spaces - [Dog vs. Cat Classifier](https://huggingface.co/spaces/prasanthntu/dog-vs-cat-classifier). For full screen version, refer this [link](https://prasanthntu-dog-vs-cat-classifier.hf.space/)
 
 ## Curl examples
+- To convert images to base64, use https://www.base64-image.de/
+- To convert base64 strong to image, use https://codebeautify.org/base64-to-image-converter#
 ### Example 1: Dog
 <img src="dog.jpg" alt="dog.jpg" width="128">
 
