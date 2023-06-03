@@ -10,4 +10,3 @@ App is running in Hugging Face Spaces - [Dog vs. Cat Classifier](https://hugging
 
 Resources
 - [Fast AI Course](https://course.fast.ai/Lessons/lesson2.html)
-- 
