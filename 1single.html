@@ -27,7 +27,7 @@ layout: default
 <input id="photo2" type="file">
 <div id="results2"></div>
 <script>
-  async function loaded(reader) {
+  async function loaded2(reader) {
     const response = await fetch('https://prasanthntu-who-is-the-hero.hf.space/run/predict/', {
       method: "POST", body: JSON.stringify({ "data": [reader.result] }),
       headers: { "Content-Type": "application/json" }
@@ -36,10 +36,10 @@ layout: default
     const label = json['data'][0]['label'];
     results2.innerHTML = `<br/><img src="${reader.result}" width="300"> <p>Superhero detected: ${label}</p>`
   }
-  function read() {
+  function read2() {
     const reader = new FileReader();
-    reader.addEventListener('load', () => loaded(reader))
+    reader.addEventListener('load', () => loaded2(reader))
     reader.readAsDataURL(photo2.files[0]);
   }
-  photo2.addEventListener('input', read);
+  photo2.addEventListener('input', read2);
 </script>
