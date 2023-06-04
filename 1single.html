@@ -39,7 +39,7 @@ layout: default
   function read() {
     const reader = new FileReader();
     reader.addEventListener('load', () => loaded(reader))
-    reader.readAsDataURL(2.files[0]);
+    reader.readAsDataURL(photo2.files[0]);
   }
   photo2.addEventListener('input', read);
 </script>
